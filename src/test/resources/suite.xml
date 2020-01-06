@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suite1">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerAdapter"/>
+    </listeners>
+
+    <test name = "exampletest1" preserve-order="true" >
+        <classes>
+            <class name = "my.com.seleniumsample.test.test.FirstTest" />
+        </classes>
+    </test>
+
+    <test name = "exampletest2">
+        <classes>
+            <class name = "my.com.seleniumsample.test.test.SampleTest" />
+        </classes>
+    </test>
+
+</suite>
